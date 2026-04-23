@@ -6,7 +6,7 @@ from streamlit_searchbox import st_searchbox
 @st.cache_data
 def load_data():
     # Adjust 'Sheet1' to match your actual sheet name
-    return pd.read_excel("database.xlsx", sheet_name="Sheet1")
+    return pd.read_excel("Lookup_Database.xlsx", sheet_name="Sheet1")
 
 df = load_data()
 
